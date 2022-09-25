@@ -1,18 +1,151 @@
-﻿a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿body{
+  width: 1440px;
+  height: 1024px;
+  margin: 0px;
 }
 
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+header
+{
+  width: 1440px;
+  height: 107px;
+  background-color: #efefef;
+  padding-left: 0px;
+  padding-top: 0px;
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+a{
+  text-decoration: none;
+  color: black;
+}
+.block_raw{
+  display: flex;
+  justify-content: space-between;
+}
+.rooms_text1{
+font-family: 'Krona One' , sans-serif;
+width: 140px;
+height: 38px;
+left: 651px;
+top: 36px;
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+
+margin-top: 36px;
+}
+.rooms_enter
+{
+width: 127px;
+height: 29px;
+left: 1218px;
+top: 41px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+
+padding-top: 41px;
+padding-right: 45px;
+}
+
+.rooms_logo
+{
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.meet_footer
+{
+  width: 524px;
+  height: 88px;
+
+font-family: 'Krona One';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 88px;
+
+color: #efefef;
+}
+
+.rooms_body
+{
+width: 1365px;
+height: 695px;
+padding-left: 50px;
+padding-top: 209px;
+}
+
+.rooms_column1
+{
+  width: 1365px;
+  height: 357.92px;   
+}
+
+.rooms_column2
+{
+  width: 1201px;
+  height: 169px;
+}
+
+.rooms_button
+{
+  width: 228px;
+  height: 57px;
+  padding-top: 60px;
+  padding-left: 619px;
+  
+}
+
+.rooms_text2
+{
+  width: 733px;
+  height: 63px;
+}
+
+.rooms_cards
+{
+  display: flex;
+  justify-content: space-between;
+  width: 1365px;
+  height: 216.92px;
+  padding-top: 78px;
+}
+
+.rooms_text_page
+{
+  width: 733px;
+  height: 63px;
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+padding-left: 85px;
+}
+
+.rooms_card1
+{
+  width: 433px;
+  height: 215.84px;
+  background-color: #efefef;
+}
+.rooms_card2
+{
+  width: 433px;
+  height: 215.84px;
+  background-color: #efefef;
+}
+.rooms_card3
+{
+  width: 433px;
+  height: 215.84px;
+  background-color: #efefef;
 }
