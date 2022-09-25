@@ -1,0 +1,154 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    font-size: 25px;
+    color: black;
+    width: 1440px;
+    height: 1024px;
+    background-color:#EFEFEF ;
+    background-image: url(../images/Chair\ Slider.png);
+    
+     
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.block_raw{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 61px;
+}
+
+
+/*Заголовок*/
+.meet
+{
+    
+    width: 637px;
+    height: 106px;
+    left: 184px;
+    top: 229px;
+
+    padding-left: 184px;
+    padding-top: 229px;
+
+    font-family: 'Krona One' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 106px;
+}
+
+/* Место твоего потока */
+.meet_2
+{
+
+width: 359px;
+height: 41px;
+left: 190px;
+top: 331px;
+
+padding-left: 190px;
+
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 41px;
+}
+
+.forget_password{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #9D9D9D;
+    text-decoration: none;
+    
+}
+
+/* Meet Room */
+.text_meet
+{
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: black;
+}
+
+.text_to_main
+{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+/* Auth-form */
+.auth_form{
+width: 300px;
+height: 474px;
+left: 570px;
+top: 281px;
+padding-top: 281px ;
+padding-left: 570px;
+}
+
+.enter_text{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    padding-top: 20px;
+}
+
+.enter_logo{
+    text-align: center;
+}
+
+/* Login & Password */
+.login_passsword{
+    text-align: center;
+}
+
+input[type="text"], input[type="password"]
+{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 27px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+/* Кнопка Войти */
+.dws-submit{
+padding: 15px 68px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+background-color: #fff;
+border: none;
+}
+.dws-submit:hover{
+transition: all 0,5s;
+background: rgb(176, 175, 175);
+color: #fff;
+}
+form{
+    padding-top: 52px;
+    padding-left: 193px;
+}
