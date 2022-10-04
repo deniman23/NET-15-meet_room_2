@@ -26,7 +26,7 @@ export class NavMenu extends Component {
     return (
       <header>
         <Navbar className="block_raw" container light>
-          <NavbarBrand tag={Link} to="/" className="rooms_logo"><img src={require('./images/logo.svg')} style={nbStyle.logo} alt="fireSpot"/></NavbarBrand>
+          <NavbarBrand tag={Link} to="/" className="rooms_logo"></NavbarBrand>
           <NavbarBrand tag={Link} to="/" className="rooms_text1">Rooms</NavbarBrand>
           <NavbarBrand tag={Link} to="/" className="rooms_enter">UserName</NavbarBrand>
         </Navbar>

@@ -2,6 +2,12 @@ body{
     width: 1440px;
     height: 1024px;
     margin: 0px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+
 }
 
 header
@@ -91,6 +97,8 @@ padding-top: 209px;
 {
     width: 1201px;
     height: 169px;
+    padding-left: 85px;
+    padding-top: 55px;
 }
 
 .rooms_button
@@ -135,17 +143,95 @@ padding-left: 85px;
 {
     width: 433px;
     height: 215.84px;
-    background-color: #efefef;
+    
 }
 .rooms_card2
 {
     width: 433px;
     height: 215.84px;
-    background-color: #efefef;
 }
 .rooms_card3
 {
     width: 433px;
     height: 215.84px;
+}
+
+.rooms_card1_head
+{
+    width: 433px;
+    height: 72.67px;
+
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
     background-color: #efefef;
+}
+.rooms_card1_head_text
+{
+    text-align: center;
+    padding-top: 20.61px;
+}
+
+.rooms_card1_bottom
+{
+    width: 429px;
+    height: 140px;
+    border: 2px solid #efefef;
+}
+
+.rooms_card1_bottom_adress
+{
+    width: 399px;
+    height: 29.28px;
+    font-family: 'Raleway';
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
+    padding-left: 21px;
+    padding-top: 14.41px;
+}
+
+.rooms_card1_bottom_price_and_worktime
+{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 30.37px;
+    padding-top: 10px;
+}
+.rooms_card1_bottom_worktime
+{
+    font-family: 'Raleway';
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
+}
+.rooms_card1_bottom_price
+{
+    text-align: center;
+    font-family: 'Raleway';
+    font-style:normal;
+    font-weight: 100;
+    font-size: 18px;
+}
+/* Кнопка */
+.rooms_card1_bottom_button
+{
+    display: inline-block;cursor: pointer; 
+    font-size:18px;
+    text-decoration:none;
+    padding: 18px 151px; 
+    color:#000000;
+    background:#efefef;
+    border-radius:0px;
+    border:0px solid;
+}
+.rooms_card1_bottom_button:hover
+{
+    background:#a5a5a5;
+    color:#ffffff;
+    border:0px solid #354251;
+    transition: all 0.2s ease;
 }

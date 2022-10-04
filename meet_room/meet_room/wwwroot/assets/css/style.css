@@ -148,3 +148,8 @@ transition: all 0,5s;
 background: rgb(176, 175, 175);
 color: #fff;
 }
+
+.index_form{
+    padding-left: 193px;
+    padding-top: 50px;
+}
