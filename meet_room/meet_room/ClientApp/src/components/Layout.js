@@ -6,6 +6,9 @@ import {RoomsCard2} from './RoomsCard2';
 import {RoomsCard3} from './RoomsCard3';
 import {RoomsText} from './RoomsText';
 import { Footer } from './Footer';
+import { PlusCard1 } from './PlusCard1';
+import { PlusCard2 } from './PlusCard2';
+import { PlusCard3 } from './PlusCard3';
 
 
 
@@ -28,7 +31,12 @@ export class Layout extends Component {
               </div>
             </div>
             <div className="rooms_column2">
-
+              Дополнительные услуги:
+              <div className='extra'>
+                <PlusCard1></PlusCard1>
+                <PlusCard2></PlusCard2>
+                <PlusCard3></PlusCard3>
+              </div>
             </div>
             <Footer></Footer>
         </div>

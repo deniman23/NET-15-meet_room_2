@@ -5,6 +5,11 @@ body{
   width: 1440px;
   height: 1024px;
   margin: 0px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
 }
 
 header
@@ -60,6 +65,7 @@ padding-right: 45px;
 {
   padding-top: 25px;
   padding-left: 25px;
+  height: 60px;
 }
 
 .meet_footer
@@ -72,7 +78,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 70px;
 line-height: 88px;
-
+padding-top: 100px;
 color: #efefef;
 }
 
@@ -80,7 +86,6 @@ color: #efefef;
 {
 width: 1365px;
 height: 695px;
-padding-left: 50px;
 padding-top: 209px;
 }
 
@@ -94,6 +99,8 @@ padding-top: 209px;
 {
   width: 1201px;
   height: 169px;
+  padding-left: 85px;
+  padding-top: 55px;
 }
 
 .rooms_button
@@ -118,6 +125,7 @@ padding-top: 209px;
   width: 1365px;
   height: 216.92px;
   padding-top: 78px;
+  box-sizing: content-box;
 }
 
 .rooms_text_page
@@ -217,7 +225,7 @@ padding-left: 85px;
   display: inline-block;cursor: pointer; 
   font-size:18px;
   text-decoration:none;
-  padding: 18px 151px; 
+  padding: 18px 147px; 
   color:#000000;
   background:#efefef;
   border-radius:0px;
@@ -231,3 +239,68 @@ padding-left: 85px;
   transition: all 0.2s ease;
 }
 
+.extra
+{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 169px;
+}
+
+.extra1
+{
+  width: 300px;
+  height: 107px;
+}
+
+.extra2
+{
+  width: 300px;
+  height: 107px;
+}
+
+.extra3
+{
+  width: 300px;
+  height: 107px;
+}
+
+.extra_text
+{
+  width: 85px;
+  height: 29px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  padding-left: 115px;
+  padding-top: 29px;
+  display: flex;
+  justify-content: center;
+}
+
+.extra_button
+{
+  padding-left: 70px;
+  padding-top: 35px;
+
+}
+.extra_button_plus
+{
+  height: 50px;
+  width: 88px;
+  border: solid 1px gray;
+
+}
+
+.extra_button_minus
+{
+  height: 50px;
+  width: 88px;
+  border: solid 1px gray;
+}
+
+*{
+  box-sizing: content-box;
+}

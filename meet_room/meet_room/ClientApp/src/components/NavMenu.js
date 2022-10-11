@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
-import { Link } from 'react-router-dom';
 import './NavMenu.css';
+import logo from '../components/img/logo.svg'
 
 export class NavMenu extends Component {
   static displayName = NavMenu.name;
@@ -25,11 +24,17 @@ export class NavMenu extends Component {
 
     return (
       <header>
-        <Navbar className="block_raw" container light>
-          <NavbarBrand tag={Link} to="/" className="rooms_logo"></NavbarBrand>
-          <NavbarBrand tag={Link} to="/" className="rooms_text1">Rooms</NavbarBrand>
-          <NavbarBrand tag={Link} to="/" className="rooms_enter">UserName</NavbarBrand>
-        </Navbar>
+        <div className="block_raw">
+            <div className ="rooms_logo">
+                <img src = {logo} width='60px' alt="logo"></img>
+            </div>
+            <div className="rooms_text1">
+                Rooms
+            </div>
+            <div className="rooms_enter">
+                UserName
+            </div>
+        </div>    
       </header>
     );
   }
