@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 
 body{
-  width: 1440px;
-  height: 1024px;
+  width: 100%;
   margin: 0px;
   font-family: 'Raleway';
   font-style: normal;
@@ -14,7 +13,7 @@ body{
 
 header
 {
-  width: 1440px;
+  width: 100%;
   height: 107px;
   background-color: #efefef;
   padding-left: 0px;
@@ -84,20 +83,20 @@ color: #efefef;
 
 .rooms_body
 {
-width: 1365px;
+width: 100%;
 height: 695px;
 padding-top: 209px;
 }
 
 .rooms_column1
 {
-  width: 1365px;
+  width: 100%;
   height: 357.92px;   
 }
 
 .rooms_column2
 {
-  width: 1201px;
+  width: 100%;
   height: 169px;
   padding-left: 85px;
   padding-top: 55px;
@@ -122,7 +121,7 @@ padding-top: 209px;
 {
   display: flex;
   justify-content: space-between;
-  width: 1365px;
+  width: 100%;
   height: 216.92px;
   padding-top: 78px;
   box-sizing: content-box;
@@ -144,18 +143,15 @@ padding-left: 85px;
 
 .rooms_card1
 {
-  width: 433px;
   height: 215.84px;
   
 }
 .rooms_card2
 {
-  width: 433px;
   height: 215.84px;
 }
 .rooms_card3
 {
-  width: 433px;
   height: 215.84px;
 }
 
@@ -186,7 +182,6 @@ padding-left: 85px;
 
 .rooms_card1_bottom_adress
 {
-  width: 399px;
   height: 29.28px;
   font-family: 'Raleway';
   font-style:normal;
