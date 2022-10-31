@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 
 using db_ef;
+using System.Linq;
 
 namespace meet_room.Controllers
 {
@@ -16,11 +17,13 @@ namespace meet_room.Controllers
             using (Card_db card_db = new Card_db())
             {
                 Card card = new Card();
-                card_db.Add(card);
-                card_db.SaveChanges();
                 
-                 
-                return (IEnumerable<Card>)card_db;
+                List<Card> cards_list = new List<Card>();
+                
+                cards_list.Add(card);
+                
+                return cards_list;
+                
             }
         }
     }    
