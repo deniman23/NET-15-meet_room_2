@@ -13,17 +13,16 @@ namespace meet_room.Controllers
     {
         public IEnumerable<Card> Get()
         {
+
             //DB
             using (Card_db card_db = new Card_db())
             {
-                Card card = new Card();
+                Card card = new Card("Заголовок","Адрес","Время","Цена");
+                card_db.Cards.Add(card);
+                card_db.SaveChanges();
                 
-                List<Card> cards_list = new List<Card>();
-                
-                cards_list.Add(card);
-                
-                return cards_list;
-                
+
+                return card_db.Cards.ToList<Card>();
             }
         }
     }    
